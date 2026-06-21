@@ -1,29 +1,16 @@
-# salon_pos
-Full-stack Salon POS &amp; Management System built with React, Laravel, and MySQL. Features appointment scheduling, customer management, billing, inventory tracking, employee management, and sales reporting with a responsive dashboard. Successfully deployed as a live production application.
-💇 Salon POS System
+# React + Vite
 
-A full-stack Salon Point of Sale (POS) and Management System built to streamline salon operations, customer management, appointment scheduling, billing, and inventory tracking.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🚀 Tech Stack
-Frontend: React.js
-Backend: Laravel (REST API)
-Database: MySQL
-Authentication: JWT/Laravel Authentication
-Deployment: Production-ready Live Deployment
-✨ Features
-Customer Management
-Appointment Booking & Scheduling
-Service Management
-Employee Management
-POS Billing & Invoice Generation
-Product & Inventory Management
-Sales Reports & Analytics
-Role-Based User Access
-Responsive Dashboard
-🛠️ Architecture
-React frontend communicates with Laravel REST APIs.
-Laravel handles business logic and authentication.
-MySQL stores customer, appointment, sales, and inventory data.
-📦 Project Status
+Currently, two official plugins are available:
 
-✅ Successfully developed, deployed, and used as a live production application.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
