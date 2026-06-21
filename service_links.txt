@@ -1,0 +1,4 @@
+Service: hairwash | Column: product_id | Value: C-JFHRVC
+Service: tytty | Column: product_id | Value: ITEM-6651
+Service: hair cut | Column: product_id | Value: ITEM-6798
+Service: trt | Column: product_id | Value: ITEM-4897
